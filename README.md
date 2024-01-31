@@ -2,7 +2,7 @@
 # Introduction
 This code completes the PABUF data-level parallel memory access control. The experiment used the verilator software simulation method and completed vectorized data read and write through custom RoCC instructions.
 
-# 环境搭建
+# Environment Set
 #### Chipyard Version Information
 
 ```shell
