@@ -1,0 +1,13 @@
+SPM : 32 KB 16-block 4-line
+
+kmean:
+
+minst
+    N : 样例个数(16,32)
+    M ：属性值
+    K ：质心数
+    使用python生成data 数组
+
+iter
+    使用核心循环迭代次数，代替原来的误差收敛条件
+    默认10

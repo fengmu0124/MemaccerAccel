@@ -1,0 +1,11 @@
+1、SPM 大小 32KB 64-block 1-line
+1、SPM 大小 32KB 32-block 2-line
+gemm 
+    实现矩阵相乘
+
+测试通过数据类型
+    TYPE unsgined long long 
+    TYPE unsigned int
+
+gemm128-int 1-line
+gemm128-long 2-line

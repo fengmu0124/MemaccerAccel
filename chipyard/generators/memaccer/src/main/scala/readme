@@ -1,0 +1,18 @@
+
+cal.scala: RoCC向量加速器，可实现向量累加，向量四则运算
+
+DMAController.scala: 负责控制读写内存
+
+DMA.scala: 基于Chipyard自带的icenet实现DMA读写功能
+
+ScratchpadBank.scala: 存储体 bank
+
+Scratchpad.scala：多bank存储器
+
+DMAConfig.scala: DMA的配置参数
+
+ScratchpadConfig.scala: Scratchpad的配置参数
+
+OmegaNetwork.scala: OmegaNetwork
+
+MeaccerTestPlatform.scala: PABUF测试控制平台

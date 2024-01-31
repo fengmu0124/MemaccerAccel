@@ -1,0 +1,8 @@
+SPM 大小 32KB 16-block 4-line
+
+axpy 
+    实现向量运算 a * X[] + Y[] = Y[]
+
+测试通过数据类型
+    TYPE unsgined long long 
+    TYPE unsigned int

@@ -1,0 +1,79 @@
+√ 去掉renBackup
+√ 去掉vregsBackup
+
+√ 使用omega network 代替原来的 crossBar
+√ 完成oneCycle状态下的实现
+
+debug
+√ 1、dload 写回最后一个元素有误, 最后一个元素时钟问题
+√ 2、table 读写在同一块, cQuery 状态下，hit 问题
+√ 3、gemm, 读取一行后，读取一列，后面一列的结构覆盖了前面的行，同2
+√ 4、计算结果不对, cal.scala计算模块flag寄存器初始化错误
+√ 5、block = 128时，替换出错, load完一块block，read了旧数据, 查看vregs, bank读取出来的数据是什么
+    修改了dload, basebankAddr
+
+todo
+LRU 实现替换（现在的替换策略使用随机算法）
+实现 int 类型数据
+
+not yet 
+mutil-cycles
+
+backup 2021-1-28 使用omega network 替代
+is(cRESP){// 加速器读写响应返回
+                        // 假设读取的数据对齐wbankElem!!!                        
+                        val bankAddrInc = stride << (wbankElemBytes.U)  // 两个bank间数据地址增量
+                        val bankDistance = (addr - table(hitID).addr) / bankAddrInc
+                        val bankStartID = bankDistance(wnbank-1, 0)
+                        val bankAddr = (bankDistance >> wnbank.U) + blockLine.U*hitID
+                        printf("@SPM: hitID=%d,bankAddrInc=%d, bankDistance=%d, bankStartID=%d, bankAddr=%d\n",
+                         hitID, bankAddrInc, bankDistance, bankStartID, bankAddr)
+                        when(stride === table(hitID).stride){// 1 cycles
+                            banks_io.zipWithIndex.foreach{ case(bio, i) =>
+                                val ibankAddr = Mux(i.U >= bankStartID, bankAddr, bankAddr + 1.U) 
+                                val ii = (i.U - bankStartID + nbank.U)(wnbank-1, 0)       // i->ii映射，对应bank(i)->vregs(ii)映射
+                                // 读取数据
+                                bio.read.req.bits.addr := ibankAddr
+                                bio.read.req.valid := ren
+                                bio.read.resp.ready := true.B
+                                when(bio.read.resp.fire()){                                    
+                                    vregs(ii)   := bio.read.resp.bits.data
+                                    canResp     := true.B
+                                }
+                                // 写数据                            
+                                val ii_mask = ii << (3.U-lgElem)    // 每个bank中包含lgElem元素个数 1<<(3.U-lgElem)
+                                val wbiomask = MuxCase(0.U, Seq(     
+                                    (lgElem === 0.U && ii_mask+7.U<64.U) -> Cat(vmask(ii_mask+7.U), vmask(ii_mask+6.U), vmask(ii_mask+5.U)
+                                        , vmask(ii_mask+4.U), vmask(ii_mask+3.U), vmask(ii_mask+2.U), vmask(ii_mask+1.U), vmask(ii_mask)),
+                                    (lgElem === 1.U && ii_mask+3.U<64.U) -> Cat(Fill(2, vmask(ii_mask+3.U)), 
+                                        Fill(2, vmask(ii_mask+2.U)), Fill(2, vmask(ii_mask+1.U)), Fill(2, vmask(ii_mask))),
+                                    (lgElem === 2.U && ii_mask+1.U<64.U) -> Cat(Fill(4, vmask(ii_mask+1.U)),Fill(4, vmask(ii_mask))),
+                                    (lgElem === 3.U && ii_mask<64.U) -> Fill(8, vmask(ii_mask))
+                                ))                                                                
+                                bio.write.en    := !ren
+                                bio.write.addr  := ibankAddr
+                                bio.write.mask  := wbiomask.asTypeOf(Vec(bankElemBytes, Bool()))
+                                bio.write.data  := vregs(ii)
+                            }
+                            when(!ren){  // 写回只需一个时钟周期
+                                canResp := true.B
+                                tabValid(hitID) := true.B
+                                tabDirty(hitID) := true.B
+                            }
+                        }.otherwise{// multi-cycles
+                            // mem-stride > spm-stride
+                            // mem-stride % spm-stride == 0 
+                            // mem-lgElem == spm-lgElem
+                            val i = RegInit(0.U(wnbank.W))
+                            val newStride   = stride / table(hitID).stride
+                            val baseNumID   = (addr - table(hitID).addr) / (table(hitID).stride << table(hitID).lgElem) 
+                            val startNumID  = (baseNumID + i * newStride)
+                            val nline       = startNumID / (nbank.U << (3.U - lgElem))    // vregs(i)位于第n条line中
+                            val endNumID    = (nline + 1.U) * nbank * (wbankElemBytes >> lgElem)
+                            val startBank   = startNumID >> (3.U - lgElem)
+                            val iter        = (endNumID - startNumID) / newStride + 1.U
+                            when(i < elems){
+
+                            }
+                        }
+                    }// cRESP end

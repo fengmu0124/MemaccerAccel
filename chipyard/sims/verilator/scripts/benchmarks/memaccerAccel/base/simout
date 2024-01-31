@@ -1,0 +1,871 @@
+using random seed 1612340267
+This emulator compiled with JTAG Remote Bitbang client. To enable, use +jtag_rbb_enable=1.
+Listening on port 42719
+@RMA: req info...
+opType= 0, way=0 flush=1, calOp=6, scalaA=11395377435111601079, scalaB= 5062573784417373113
+addr=0000000080001fc0	, lgElem=3	, elems=   64, stride=    1, vmask=5cf3346a1d42ef7d, loadAddr=0
+@BANK(write): addr=00, data=000000000000003b, mask=ff
+@BANK(write): addr=00, data=000000000000003c, mask=ff
+@BANK(write): addr=00, data=000000000000003d, mask=ff
+@BANK(write): addr=00, data=000000000000003e, mask=ff
+@BANK(write): addr=00, data=000000000000003f, mask=ff
+@BANK(write): addr=00, data=0000000000000034, mask=ff
+@BANK(write): addr=00, data=0000000000000035, mask=ff
+@BANK(write): addr=00, data=0000000000000036, mask=ff
+@BANK(write): addr=00, data=0000000000000037, mask=ff
+@BANK(write): addr=00, data=0000000000000038, mask=ff
+@BANK(write): addr=00, data=0000000000000039, mask=ff
+@BANK(write): addr=00, data=000000000000003a, mask=ff
+@BANK(write): addr=00, data=0000000000000033, mask=ff
+@BANK(write): addr=00, data=000000000000002f, mask=ff
+@BANK(write): addr=00, data=0000000000000030, mask=ff
+@BANK(write): addr=00, data=0000000000000031, mask=ff
+@BANK(write): addr=00, data=0000000000000032, mask=ff
+@BANK(write): addr=00, data=0000000000000023, mask=ff
+@BANK(write): addr=00, data=0000000000000024, mask=ff
+@BANK(write): addr=00, data=0000000000000025, mask=ff
+@BANK(write): addr=00, data=0000000000000026, mask=ff
+@BANK(write): addr=00, data=0000000000000027, mask=ff
+@BANK(write): addr=00, data=0000000000000028, mask=ff
+@BANK(write): addr=00, data=0000000000000029, mask=ff
+@BANK(write): addr=00, data=000000000000002a, mask=ff
+@BANK(write): addr=00, data=000000000000002b, mask=ff
+@BANK(write): addr=00, data=000000000000002c, mask=ff
+@BANK(write): addr=00, data=000000000000002d, mask=ff
+@BANK(write): addr=00, data=000000000000002e, mask=ff
+@BANK(write): addr=00, data=0000000000000020, mask=ff
+@BANK(write): addr=00, data=0000000000000021, mask=ff
+@BANK(write): addr=00, data=0000000000000022, mask=ff
+@BANK(write): addr=00, data=0000000000000017, mask=ff
+@BANK(write): addr=00, data=0000000000000018, mask=ff
+@BANK(write): addr=00, data=0000000000000019, mask=ff
+@BANK(write): addr=00, data=000000000000001a, mask=ff
+@BANK(write): addr=00, data=000000000000001b, mask=ff
+@BANK(write): addr=00, data=000000000000001c, mask=ff
+@BANK(write): addr=00, data=000000000000001d, mask=ff
+@BANK(write): addr=00, data=000000000000001e, mask=ff
+@BANK(write): addr=00, data=000000000000001f, mask=ff
+@BANK(write): addr=00, data=0000000000000010, mask=ff
+@BANK(write): addr=00, data=0000000000000011, mask=ff
+@BANK(write): addr=00, data=0000000000000012, mask=ff
+@BANK(write): addr=00, data=0000000000000013, mask=ff
+@BANK(write): addr=00, data=0000000000000014, mask=ff
+@BANK(write): addr=00, data=0000000000000015, mask=ff
+@BANK(write): addr=00, data=0000000000000016, mask=ff
+@BANK(write): addr=00, data=000000000000000b, mask=ff
+@BANK(write): addr=00, data=000000000000000c, mask=ff
+@BANK(write): addr=00, data=000000000000000d, mask=ff
+@BANK(write): addr=00, data=000000000000000e, mask=ff
+@BANK(write): addr=00, data=000000000000000f, mask=ff
+@BANK(write): addr=00, data=0000000000000008, mask=ff
+@BANK(write): addr=00, data=0000000000000009, mask=ff
+@BANK(write): addr=00, data=000000000000000a, mask=ff
+@BANK(write): addr=00, data=0000000000000000, mask=ff
+@BANK(write): addr=00, data=0000000000000001, mask=ff
+@BANK(write): addr=00, data=0000000000000002, mask=ff
+@BANK(write): addr=00, data=0000000000000003, mask=ff
+@BANK(write): addr=00, data=0000000000000004, mask=ff
+@BANK(write): addr=00, data=0000000000000005, mask=ff
+@BANK(write): addr=00, data=0000000000000006, mask=ff
+@BANK(write): addr=00, data=0000000000000007, mask=ff
+@SPM: DMA load a block data...
+0000000000000000	0000000000000001	0000000000000002	0000000000000003	0000000000000004	0000000000000005	0000000000000006	0000000000000007	
+0000000000000008	0000000000000009	000000000000000a	000000000000000b	000000000000000c	000000000000000d	000000000000000e	000000000000000f	
+0000000000000010	0000000000000011	0000000000000012	0000000000000013	0000000000000014	0000000000000015	0000000000000016	0000000000000017	
+0000000000000018	0000000000000019	000000000000001a	000000000000001b	000000000000001c	000000000000001d	000000000000001e	000000000000001f	
+0000000000000020	0000000000000021	0000000000000022	0000000000000023	0000000000000024	0000000000000025	0000000000000026	0000000000000027	
+0000000000000028	0000000000000029	000000000000002a	000000000000002b	000000000000002c	000000000000002d	000000000000002e	000000000000002f	
+0000000000000030	0000000000000031	0000000000000032	0000000000000033	0000000000000034	0000000000000035	0000000000000036	0000000000000037	
+0000000000000038	0000000000000039	000000000000003a	000000000000003b	000000000000003c	000000000000003d	000000000000003e	000000000000003f	
+@SPM: hitID= 0,bankAddrInc=     8, bankDistance=                   0, bankStartID= 0, bankAddr=                   0
+@BANK(read): addr=00, data=000000000000003b
+@BANK(read): addr=00, data=000000000000003c
+@BANK(read): addr=00, data=000000000000003d
+@BANK(read): addr=00, data=000000000000003e
+@BANK(read): addr=00, data=000000000000003f
+@BANK(read): addr=00, data=0000000000000034
+@BANK(read): addr=00, data=0000000000000035
+@BANK(read): addr=00, data=0000000000000036
+@BANK(read): addr=00, data=0000000000000037
+@BANK(read): addr=00, data=0000000000000038
+@BANK(read): addr=00, data=0000000000000039
+@BANK(read): addr=00, data=000000000000003a
+@BANK(read): addr=00, data=0000000000000033
+@BANK(read): addr=00, data=000000000000002f
+@BANK(read): addr=00, data=0000000000000030
+@BANK(read): addr=00, data=0000000000000031
+@BANK(read): addr=00, data=0000000000000032
+@BANK(read): addr=00, data=0000000000000023
+@BANK(read): addr=00, data=0000000000000024
+@BANK(read): addr=00, data=0000000000000025
+@BANK(read): addr=00, data=0000000000000026
+@BANK(read): addr=00, data=0000000000000027
+@BANK(read): addr=00, data=0000000000000028
+@BANK(read): addr=00, data=0000000000000029
+@BANK(read): addr=00, data=000000000000002a
+@BANK(read): addr=00, data=000000000000002b
+@BANK(read): addr=00, data=000000000000002c
+@BANK(read): addr=00, data=000000000000002d
+@BANK(read): addr=00, data=000000000000002e
+@BANK(read): addr=00, data=0000000000000020
+@BANK(read): addr=00, data=0000000000000021
+@BANK(read): addr=00, data=0000000000000022
+@BANK(read): addr=00, data=0000000000000017
+@BANK(read): addr=00, data=0000000000000018
+@BANK(read): addr=00, data=0000000000000019
+@BANK(read): addr=00, data=000000000000001a
+@BANK(read): addr=00, data=000000000000001b
+@BANK(read): addr=00, data=000000000000001c
+@BANK(read): addr=00, data=000000000000001d
+@BANK(read): addr=00, data=000000000000001e
+@BANK(read): addr=00, data=000000000000001f
+@BANK(read): addr=00, data=0000000000000010
+@BANK(read): addr=00, data=0000000000000011
+@BANK(read): addr=00, data=0000000000000012
+@BANK(read): addr=00, data=0000000000000013
+@BANK(read): addr=00, data=0000000000000014
+@BANK(read): addr=00, data=0000000000000015
+@BANK(read): addr=00, data=0000000000000016
+@BANK(read): addr=00, data=000000000000000b
+@BANK(read): addr=00, data=000000000000000c
+@BANK(read): addr=00, data=000000000000000d
+@BANK(read): addr=00, data=000000000000000e
+@BANK(read): addr=00, data=000000000000000f
+@BANK(read): addr=00, data=0000000000000008
+@BANK(read): addr=00, data=0000000000000009
+@BANK(read): addr=00, data=000000000000000a
+@BANK(read): addr=00, data=0000000000000000
+@BANK(read): addr=00, data=0000000000000001
+@BANK(read): addr=00, data=0000000000000002
+@BANK(read): addr=00, data=0000000000000003
+@BANK(read): addr=00, data=0000000000000004
+@BANK(read): addr=00, data=0000000000000005
+@BANK(read): addr=00, data=0000000000000006
+@BANK(read): addr=00, data=0000000000000007
+@SPM: hitID= 0,bankAddrInc=     8, bankDistance=                   0, bankStartID= 0, bankAddr=                   0
+@SPM: after scratchpad access
+0 	v1 	d0 	addr0000000080001fc0 	lgElems3 	stride    1
+1 	v0 	d0 	addr74770c5003b3b0b2 	lgElems3 	stride51471
+2 	v0 	d0 	addr373dcacd4bc1fd95 	lgElems0 	stride40753
+3 	v0 	d0 	addrcfe0929382944c20 	lgElems1 	stride33271
+4 	v0 	d0 	addr64521cf6e7e2e679 	lgElems0 	stride22569
+5 	v0 	d0 	addrf069143e69f099fd 	lgElems0 	stride20733
+6 	v0 	d0 	addr81de9c820c9ff1eb 	lgElems3 	stride28690
+7 	v0 	d0 	addr9b30cecf80f88f54 	lgElems3 	stride56937
+ 8 	v0 	d0 	addrd02f34a0b5c2fe94 	lgElems3 	stride40737
+ 9 	v0 	d0 	addr512023920e84eb4f 	lgElems3 	stride41810
+10 	v0 	d0 	addr6402201ef4f6a345 	lgElems0 	stride14451
+11 	v0 	d0 	addr1b4a39fd7cfc65bc 	lgElems1 	stride36452
+12 	v0 	d0 	addrd91e8ffeaea9fb95 	lgElems1 	stride63640
+13 	v0 	d0 	addr5bc7a685412f9fef 	lgElems0 	stride18620
+14 	v0 	d0 	addre087fcc4f471b2d9 	lgElems0 	stride58929
+15 	v0 	d0 	addre8440ae134fe16bd 	lgElems1 	stride25165
+16 	v0 	d0 	addreb4ea1af2aa151b6 	lgElems1 	stride17157
+17 	v0 	d0 	addr89c71ca6605ea8d1 	lgElems3 	stride60639
+18 	v0 	d0 	addr354f9d31119de385 	lgElems3 	stride56645
+19 	v0 	d0 	addr6cedcd8d9b5fc544 	lgElems3 	stride54520
+20 	v0 	d0 	addr3196d5bf258cae24 	lgElems1 	stride50823
+21 	v0 	d0 	addra6291939f9510f0e 	lgElems3 	stride56672
+22 	v0 	d0 	addr731aecbf5c835d0a 	lgElems3 	stride38746
+23 	v0 	d0 	addr4868da263f153a18 	lgElems2 	stride61873
+24 	v0 	d0 	addrb1a37cbb113a618a 	lgElems2 	stride49049
+25 	v0 	d0 	addrc0238dbdcb7b1943 	lgElems0 	stride29749
+26 	v0 	d0 	addr7373808c3bea259a 	lgElems1 	stride41013
+27 	v0 	d0 	addr063bc1d8ceece790 	lgElems2 	stride22958
+28 	v0 	d0 	addrd9bcbae2d3baa424 	lgElems2 	stride48902
+29 	v0 	d0 	addr92fe7e683df0ec8d 	lgElems0 	stride53475
+30 	v0 	d0 	addr0a61cceb4790bade 	lgElems1 	stride 1253
+31 	v0 	d0 	addrc88f526af2233a79 	lgElems2 	stride46375
+32 	v0 	d0 	addr7dd816040244e860 	lgElems3 	stride38504
+33 	v0 	d0 	addrdea84eefe5d91580 	lgElems2 	stride19831
+34 	v0 	d0 	addr486e3f3ec06abab8 	lgElems0 	stride26157
+35 	v0 	d0 	addr20faa51c61e8f0a1 	lgElems0 	stride61613
+36 	v0 	d0 	addr103feca7974fdc4e 	lgElems3 	stride19337
+37 	v0 	d0 	addr734d384d0fa44c9b 	lgElems2 	stride49118
+38 	v0 	d0 	addrfbccb943025ae358 	lgElems1 	stride12068
+39 	v0 	d0 	addrc2cf60cfa7b1b9c9 	lgElems1 	stride 6555
+40 	v0 	d0 	addr8fdc156ea69d14a9 	lgElems3 	stride33072
+41 	v0 	d0 	addr74426127217dbdc9 	lgElems2 	stride64000
+42 	v0 	d0 	addrb33554ec751a95e4 	lgElems2 	stride25523
+43 	v0 	d0 	addrbc7e3177f6b9fd23 	lgElems1 	stride14387
+44 	v0 	d0 	addrb4bcc9dec0f5bbde 	lgElems0 	stride43891
+45 	v0 	d0 	addrac981ae119f3fbfb 	lgElems0 	stride47661
+46 	v0 	d0 	addr36a1cea14439f4b2 	lgElems1 	stride45191
+47 	v0 	d0 	addr095b9bc8e3188b0a 	lgElems0 	stride27331
+48 	v0 	d0 	addr1e9947f64292824b 	lgElems1 	stride40702
+49 	v0 	d0 	addr46ac23f564479a7a 	lgElems1 	stride32749
+50 	v0 	d0 	addrecb2cea3454aea95 	lgElems3 	stride48164
+51 	v0 	d0 	addrde630fd682f17d69 	lgElems0 	stride32261
+52 	v0 	d0 	addrf6d5e758d716fb7c 	lgElems1 	stride43711
+53 	v0 	d0 	addr244b2f3203e46fbe 	lgElems2 	stride36736
+54 	v0 	d0 	addr55f43e6ae3fb598d 	lgElems1 	stride49594
+55 	v0 	d0 	addr6984b337faba61f6 	lgElems3 	stride39058
+56 	v0 	d0 	addrb1dede250551e10e 	lgElems0 	stride 8331
+57 	v0 	d0 	addr2d3f95b1fd2f2b8d 	lgElems3 	stride21267
+58 	v0 	d0 	addr70c42c3673644500 	lgElems0 	stride 5958
+59 	v0 	d0 	addr37c0747c589f0377 	lgElems0 	stride51761
+60 	v0 	d0 	addre7643f881b6d4be2 	lgElems2 	stride57044
+61 	v0 	d0 	addr18b4c44a1b0011fb 	lgElems2 	stride43428
+62 	v0 	d0 	addr3f2d52c876984649 	lgElems0 	stride44827
+63 	v0 	d0 	addr8cc3800e84358cf5 	lgElems2 	stride56075
+@MTP: result(                   0)...
+vregs_src0 result: 
+                   0	                   1	                   2	                   3	                   4	                   5	                   6	                   7	
+                   8	                   9	                  10	                  11	                  12	                  13	                  14	                  15	
+                  16	                  17	                  18	                  19	                  20	                  21	                  22	                  23	
+                  24	                  25	                  26	                  27	                  28	                  29	                  30	                  31	
+                  32	                  33	                  34	                  35	                  36	                  37	                  38	                  39	
+                  40	                  41	                  42	                  43	                  44	                  45	                  46	                  47	
+                  48	                  49	                  50	                  51	                  52	                  53	                  54	                  55	
+                  56	                  57	                  58	                  59	                  60	                  61	                  62	                  63	
+vregs_src1 result: 
+                   1	                   1	                   1	                   1	                   1	                   1	                   1	                   1	
+                   1	                   1	                   1	                   1	                   1	                   1	                   1	                   1	
+                   1	                   1	                   1	                   1	                   1	                   1	                   1	                   1	
+                   1	                   1	                   1	                   1	                   1	                   1	                   1	                   1	
+                   1	                   1	                   1	                   1	                   1	                   1	                   1	                   1	
+                   1	                   1	                   1	                   1	                   1	                   1	                   1	                   1	
+                   1	                   1	                   1	                   1	                   1	                   1	                   1	                   1	
+                   1	                   1	                   1	                   1	                   1	                   1	                   1	                   1	
+vregs_res result: 
+                   1	                   1	                   1	                   1	                   1	                   1	                   1	                   1	
+                   1	                   1	                   1	                   1	                   1	                   1	                   1	                   1	
+                   1	                   1	                   1	                   1	                   1	                   1	                   1	                   1	
+                   1	                   1	                   1	                   1	                   1	                   1	                   1	                   1	
+                   1	                   1	                   1	                   1	                   1	                   1	                   1	                   1	
+                   1	                   1	                   1	                   1	                   1	                   1	                   1	                   1	
+                   1	                   1	                   1	                   1	                   1	                   1	                   1	                   1	
+                   1	                   1	                   1	                   1	                   1	                   1	                   1	                   1	
+@RMA: req info...
+opType= 0, way=0 flush=1, calOp=6, scalaA=11395377435111601079, scalaB= 5062573784417373113
+addr=0000000080001fd0	, lgElem=3	, elems=   64, stride=    1, vmask=5cf3346a1d42ef7d, loadAddr=1
+@BANK(write): addr=00, data=000000000000003d, mask=ff
+@BANK(write): addr=00, data=000000000000003e, mask=ff
+@BANK(write): addr=00, data=000000000000003f, mask=ff
+@BANK(write): addr=00, data=0000000000000040, mask=ff
+@BANK(write): addr=00, data=0000000000000041, mask=ff
+@BANK(write): addr=00, data=0000000000000036, mask=ff
+@BANK(write): addr=00, data=0000000000000037, mask=ff
+@BANK(write): addr=00, data=0000000000000038, mask=ff
+@BANK(write): addr=00, data=0000000000000039, mask=ff
+@BANK(write): addr=00, data=000000000000003a, mask=ff
+@BANK(write): addr=00, data=000000000000003b, mask=ff
+@BANK(write): addr=00, data=000000000000003c, mask=ff
+@BANK(write): addr=00, data=0000000000000035, mask=ff
+@BANK(write): addr=00, data=0000000000000031, mask=ff
+@BANK(write): addr=00, data=0000000000000032, mask=ff
+@BANK(write): addr=00, data=0000000000000033, mask=ff
+@BANK(write): addr=00, data=0000000000000034, mask=ff
+@BANK(write): addr=00, data=0000000000000025, mask=ff
+@BANK(write): addr=00, data=0000000000000026, mask=ff
+@BANK(write): addr=00, data=0000000000000027, mask=ff
+@BANK(write): addr=00, data=0000000000000028, mask=ff
+@BANK(write): addr=00, data=0000000000000029, mask=ff
+@BANK(write): addr=00, data=000000000000002a, mask=ff
+@BANK(write): addr=00, data=000000000000002b, mask=ff
+@BANK(write): addr=00, data=000000000000002c, mask=ff
+@BANK(write): addr=00, data=000000000000002d, mask=ff
+@BANK(write): addr=00, data=000000000000002e, mask=ff
+@BANK(write): addr=00, data=000000000000002f, mask=ff
+@BANK(write): addr=00, data=0000000000000030, mask=ff
+@BANK(write): addr=00, data=0000000000000022, mask=ff
+@BANK(write): addr=00, data=0000000000000023, mask=ff
+@BANK(write): addr=00, data=0000000000000024, mask=ff
+@BANK(write): addr=00, data=0000000000000019, mask=ff
+@BANK(write): addr=00, data=000000000000001a, mask=ff
+@BANK(write): addr=00, data=000000000000001b, mask=ff
+@BANK(write): addr=00, data=000000000000001c, mask=ff
+@BANK(write): addr=00, data=000000000000001d, mask=ff
+@BANK(write): addr=00, data=000000000000001e, mask=ff
+@BANK(write): addr=00, data=000000000000001f, mask=ff
+@BANK(write): addr=00, data=0000000000000020, mask=ff
+@BANK(write): addr=00, data=0000000000000021, mask=ff
+@BANK(write): addr=00, data=0000000000000012, mask=ff
+@BANK(write): addr=00, data=0000000000000013, mask=ff
+@BANK(write): addr=00, data=0000000000000014, mask=ff
+@BANK(write): addr=00, data=0000000000000015, mask=ff
+@BANK(write): addr=00, data=0000000000000016, mask=ff
+@BANK(write): addr=00, data=0000000000000017, mask=ff
+@BANK(write): addr=00, data=0000000000000018, mask=ff
+@BANK(write): addr=00, data=000000000000000d, mask=ff
+@BANK(write): addr=00, data=000000000000000e, mask=ff
+@BANK(write): addr=00, data=000000000000000f, mask=ff
+@BANK(write): addr=00, data=0000000000000010, mask=ff
+@BANK(write): addr=00, data=0000000000000011, mask=ff
+@BANK(write): addr=00, data=000000000000000a, mask=ff
+@BANK(write): addr=00, data=000000000000000b, mask=ff
+@BANK(write): addr=00, data=000000000000000c, mask=ff
+@BANK(write): addr=00, data=0000000000000002, mask=ff
+@BANK(write): addr=00, data=0000000000000003, mask=ff
+@BANK(write): addr=00, data=0000000000000004, mask=ff
+@BANK(write): addr=00, data=0000000000000005, mask=ff
+@BANK(write): addr=00, data=0000000000000006, mask=ff
+@BANK(write): addr=00, data=0000000000000007, mask=ff
+@BANK(write): addr=00, data=0000000000000008, mask=ff
+@BANK(write): addr=00, data=0000000000000009, mask=ff
+@SPM: DMA load a block data...
+0000000000000002	0000000000000003	0000000000000004	0000000000000005	0000000000000006	0000000000000007	0000000000000008	0000000000000009	
+000000000000000a	000000000000000b	000000000000000c	000000000000000d	000000000000000e	000000000000000f	0000000000000010	0000000000000011	
+0000000000000012	0000000000000013	0000000000000014	0000000000000015	0000000000000016	0000000000000017	0000000000000018	0000000000000019	
+000000000000001a	000000000000001b	000000000000001c	000000000000001d	000000000000001e	000000000000001f	0000000000000020	0000000000000021	
+0000000000000022	0000000000000023	0000000000000024	0000000000000025	0000000000000026	0000000000000027	0000000000000028	0000000000000029	
+000000000000002a	000000000000002b	000000000000002c	000000000000002d	000000000000002e	000000000000002f	0000000000000030	0000000000000031	
+0000000000000032	0000000000000033	0000000000000034	0000000000000035	0000000000000036	0000000000000037	0000000000000038	0000000000000039	
+000000000000003a	000000000000003b	000000000000003c	000000000000003d	000000000000003e	000000000000003f	0000000000000040	0000000000000041	
+@SPM: hitID= 0,bankAddrInc=     8, bankDistance=                   0, bankStartID= 0, bankAddr=                   0
+@BANK(read): addr=00, data=000000000000003d
+@BANK(read): addr=00, data=000000000000003e
+@BANK(read): addr=00, data=000000000000003f
+@BANK(read): addr=00, data=0000000000000040
+@BANK(read): addr=00, data=0000000000000041
+@BANK(read): addr=00, data=0000000000000036
+@BANK(read): addr=00, data=0000000000000037
+@BANK(read): addr=00, data=0000000000000038
+@BANK(read): addr=00, data=0000000000000039
+@BANK(read): addr=00, data=000000000000003a
+@BANK(read): addr=00, data=000000000000003b
+@BANK(read): addr=00, data=000000000000003c
+@BANK(read): addr=00, data=0000000000000035
+@BANK(read): addr=00, data=0000000000000031
+@BANK(read): addr=00, data=0000000000000032
+@BANK(read): addr=00, data=0000000000000033
+@BANK(read): addr=00, data=0000000000000034
+@BANK(read): addr=00, data=0000000000000025
+@BANK(read): addr=00, data=0000000000000026
+@BANK(read): addr=00, data=0000000000000027
+@BANK(read): addr=00, data=0000000000000028
+@BANK(read): addr=00, data=0000000000000029
+@BANK(read): addr=00, data=000000000000002a
+@BANK(read): addr=00, data=000000000000002b
+@BANK(read): addr=00, data=000000000000002c
+@BANK(read): addr=00, data=000000000000002d
+@BANK(read): addr=00, data=000000000000002e
+@BANK(read): addr=00, data=000000000000002f
+@BANK(read): addr=00, data=0000000000000030
+@BANK(read): addr=00, data=0000000000000022
+@BANK(read): addr=00, data=0000000000000023
+@BANK(read): addr=00, data=0000000000000024
+@BANK(read): addr=00, data=0000000000000019
+@BANK(read): addr=00, data=000000000000001a
+@BANK(read): addr=00, data=000000000000001b
+@BANK(read): addr=00, data=000000000000001c
+@BANK(read): addr=00, data=000000000000001d
+@BANK(read): addr=00, data=000000000000001e
+@BANK(read): addr=00, data=000000000000001f
+@BANK(read): addr=00, data=0000000000000020
+@BANK(read): addr=00, data=0000000000000021
+@BANK(read): addr=00, data=0000000000000012
+@BANK(read): addr=00, data=0000000000000013
+@BANK(read): addr=00, data=0000000000000014
+@BANK(read): addr=00, data=0000000000000015
+@BANK(read): addr=00, data=0000000000000016
+@BANK(read): addr=00, data=0000000000000017
+@BANK(read): addr=00, data=0000000000000018
+@BANK(read): addr=00, data=000000000000000d
+@BANK(read): addr=00, data=000000000000000e
+@BANK(read): addr=00, data=000000000000000f
+@BANK(read): addr=00, data=0000000000000010
+@BANK(read): addr=00, data=0000000000000011
+@BANK(read): addr=00, data=000000000000000a
+@BANK(read): addr=00, data=000000000000000b
+@BANK(read): addr=00, data=000000000000000c
+@BANK(read): addr=00, data=0000000000000002
+@BANK(read): addr=00, data=0000000000000003
+@BANK(read): addr=00, data=0000000000000004
+@BANK(read): addr=00, data=0000000000000005
+@BANK(read): addr=00, data=0000000000000006
+@BANK(read): addr=00, data=0000000000000007
+@BANK(read): addr=00, data=0000000000000008
+@BANK(read): addr=00, data=0000000000000009
+@SPM: hitID= 0,bankAddrInc=     8, bankDistance=                   0, bankStartID= 0, bankAddr=                   0
+@SPM: after scratchpad access
+0 	v1 	d0 	addr0000000080001fd0 	lgElems3 	stride    1
+1 	v0 	d0 	addr74770c5003b3b0b2 	lgElems3 	stride51471
+2 	v0 	d0 	addr373dcacd4bc1fd95 	lgElems0 	stride40753
+3 	v0 	d0 	addrcfe0929382944c20 	lgElems1 	stride33271
+4 	v0 	d0 	addr64521cf6e7e2e679 	lgElems0 	stride22569
+5 	v0 	d0 	addrf069143e69f099fd 	lgElems0 	stride20733
+6 	v0 	d0 	addr81de9c820c9ff1eb 	lgElems3 	stride28690
+7 	v0 	d0 	addr9b30cecf80f88f54 	lgElems3 	stride56937
+ 8 	v0 	d0 	addrd02f34a0b5c2fe94 	lgElems3 	stride40737
+ 9 	v0 	d0 	addr512023920e84eb4f 	lgElems3 	stride41810
+10 	v0 	d0 	addr6402201ef4f6a345 	lgElems0 	stride14451
+11 	v0 	d0 	addr1b4a39fd7cfc65bc 	lgElems1 	stride36452
+12 	v0 	d0 	addrd91e8ffeaea9fb95 	lgElems1 	stride63640
+13 	v0 	d0 	addr5bc7a685412f9fef 	lgElems0 	stride18620
+14 	v0 	d0 	addre087fcc4f471b2d9 	lgElems0 	stride58929
+15 	v0 	d0 	addre8440ae134fe16bd 	lgElems1 	stride25165
+16 	v0 	d0 	addreb4ea1af2aa151b6 	lgElems1 	stride17157
+17 	v0 	d0 	addr89c71ca6605ea8d1 	lgElems3 	stride60639
+18 	v0 	d0 	addr354f9d31119de385 	lgElems3 	stride56645
+19 	v0 	d0 	addr6cedcd8d9b5fc544 	lgElems3 	stride54520
+20 	v0 	d0 	addr3196d5bf258cae24 	lgElems1 	stride50823
+21 	v0 	d0 	addra6291939f9510f0e 	lgElems3 	stride56672
+22 	v0 	d0 	addr731aecbf5c835d0a 	lgElems3 	stride38746
+23 	v0 	d0 	addr4868da263f153a18 	lgElems2 	stride61873
+24 	v0 	d0 	addrb1a37cbb113a618a 	lgElems2 	stride49049
+25 	v0 	d0 	addrc0238dbdcb7b1943 	lgElems0 	stride29749
+26 	v0 	d0 	addr7373808c3bea259a 	lgElems1 	stride41013
+27 	v0 	d0 	addr063bc1d8ceece790 	lgElems2 	stride22958
+28 	v0 	d0 	addrd9bcbae2d3baa424 	lgElems2 	stride48902
+29 	v0 	d0 	addr92fe7e683df0ec8d 	lgElems0 	stride53475
+30 	v0 	d0 	addr0a61cceb4790bade 	lgElems1 	stride 1253
+31 	v0 	d0 	addrc88f526af2233a79 	lgElems2 	stride46375
+32 	v0 	d0 	addr7dd816040244e860 	lgElems3 	stride38504
+33 	v0 	d0 	addrdea84eefe5d91580 	lgElems2 	stride19831
+34 	v0 	d0 	addr486e3f3ec06abab8 	lgElems0 	stride26157
+35 	v0 	d0 	addr20faa51c61e8f0a1 	lgElems0 	stride61613
+36 	v0 	d0 	addr103feca7974fdc4e 	lgElems3 	stride19337
+37 	v0 	d0 	addr734d384d0fa44c9b 	lgElems2 	stride49118
+38 	v0 	d0 	addrfbccb943025ae358 	lgElems1 	stride12068
+39 	v0 	d0 	addrc2cf60cfa7b1b9c9 	lgElems1 	stride 6555
+40 	v0 	d0 	addr8fdc156ea69d14a9 	lgElems3 	stride33072
+41 	v0 	d0 	addr74426127217dbdc9 	lgElems2 	stride64000
+42 	v0 	d0 	addrb33554ec751a95e4 	lgElems2 	stride25523
+43 	v0 	d0 	addrbc7e3177f6b9fd23 	lgElems1 	stride14387
+44 	v0 	d0 	addrb4bcc9dec0f5bbde 	lgElems0 	stride43891
+45 	v0 	d0 	addrac981ae119f3fbfb 	lgElems0 	stride47661
+46 	v0 	d0 	addr36a1cea14439f4b2 	lgElems1 	stride45191
+47 	v0 	d0 	addr095b9bc8e3188b0a 	lgElems0 	stride27331
+48 	v0 	d0 	addr1e9947f64292824b 	lgElems1 	stride40702
+49 	v0 	d0 	addr46ac23f564479a7a 	lgElems1 	stride32749
+50 	v0 	d0 	addrecb2cea3454aea95 	lgElems3 	stride48164
+51 	v0 	d0 	addrde630fd682f17d69 	lgElems0 	stride32261
+52 	v0 	d0 	addrf6d5e758d716fb7c 	lgElems1 	stride43711
+53 	v0 	d0 	addr244b2f3203e46fbe 	lgElems2 	stride36736
+54 	v0 	d0 	addr55f43e6ae3fb598d 	lgElems1 	stride49594
+55 	v0 	d0 	addr6984b337faba61f6 	lgElems3 	stride39058
+56 	v0 	d0 	addrb1dede250551e10e 	lgElems0 	stride 8331
+57 	v0 	d0 	addr2d3f95b1fd2f2b8d 	lgElems3 	stride21267
+58 	v0 	d0 	addr70c42c3673644500 	lgElems0 	stride 5958
+59 	v0 	d0 	addr37c0747c589f0377 	lgElems0 	stride51761
+60 	v0 	d0 	addre7643f881b6d4be2 	lgElems2 	stride57044
+61 	v0 	d0 	addr18b4c44a1b0011fb 	lgElems2 	stride43428
+62 	v0 	d0 	addr3f2d52c876984649 	lgElems0 	stride44827
+63 	v0 	d0 	addr8cc3800e84358cf5 	lgElems2 	stride56075
+@MTP: result(                   0)...
+vregs_src0 result: 
+                   0	                   1	                   2	                   3	                   4	                   5	                   6	                   7	
+                   8	                   9	                  10	                  11	                  12	                  13	                  14	                  15	
+                  16	                  17	                  18	                  19	                  20	                  21	                  22	                  23	
+                  24	                  25	                  26	                  27	                  28	                  29	                  30	                  31	
+                  32	                  33	                  34	                  35	                  36	                  37	                  38	                  39	
+                  40	                  41	                  42	                  43	                  44	                  45	                  46	                  47	
+                  48	                  49	                  50	                  51	                  52	                  53	                  54	                  55	
+                  56	                  57	                  58	                  59	                  60	                  61	                  62	                  63	
+vregs_src1 result: 
+                   2	                   3	                   4	                   5	                   6	                   7	                   8	                   9	
+                  10	                  11	                  12	                  13	                  14	                  15	                  16	                  17	
+                  18	                  19	                  20	                  21	                  22	                  23	                  24	                  25	
+                  26	                  27	                  28	                  29	                  30	                  31	                  32	                  33	
+                  34	                  35	                  36	                  37	                  38	                  39	                  40	                  41	
+                  42	                  43	                  44	                  45	                  46	                  47	                  48	                  49	
+                  50	                  51	                  52	                  53	                  54	                  55	                  56	                  57	
+                  58	                  59	                  60	                  61	                  62	                  63	                  64	                  65	
+vregs_res result: 
+                   1	                   1	                   1	                   1	                   1	                   1	                   1	                   1	
+                   1	                   1	                   1	                   1	                   1	                   1	                   1	                   1	
+                   1	                   1	                   1	                   1	                   1	                   1	                   1	                   1	
+                   1	                   1	                   1	                   1	                   1	                   1	                   1	                   1	
+                   1	                   1	                   1	                   1	                   1	                   1	                   1	                   1	
+                   1	                   1	                   1	                   1	                   1	                   1	                   1	                   1	
+                   1	                   1	                   1	                   1	                   1	                   1	                   1	                   1	
+                   1	                   1	                   1	                   1	                   1	                   1	                   1	                   1	
+@RMA: req info...
+opType= 2, way=0 flush=1, calOp=0, scalaA=                   1, scalaB=                   1
+addr=0000000080001fd0	, lgElem=3	, elems=   64, stride=    1, vmask=5cf3346a1d42ef7d, loadAddr=1
+@MTP: result(                   0)...
+vregs_src0 result: 
+                   0	                   1	                   2	                   3	                   4	                   5	                   6	                   7	
+                   8	                   9	                  10	                  11	                  12	                  13	                  14	                  15	
+                  16	                  17	                  18	                  19	                  20	                  21	                  22	                  23	
+                  24	                  25	                  26	                  27	                  28	                  29	                  30	                  31	
+                  32	                  33	                  34	                  35	                  36	                  37	                  38	                  39	
+                  40	                  41	                  42	                  43	                  44	                  45	                  46	                  47	
+                  48	                  49	                  50	                  51	                  52	                  53	                  54	                  55	
+                  56	                  57	                  58	                  59	                  60	                  61	                  62	                  63	
+vregs_src1 result: 
+                   2	                   3	                   4	                   5	                   6	                   7	                   8	                   9	
+                  10	                  11	                  12	                  13	                  14	                  15	                  16	                  17	
+                  18	                  19	                  20	                  21	                  22	                  23	                  24	                  25	
+                  26	                  27	                  28	                  29	                  30	                  31	                  32	                  33	
+                  34	                  35	                  36	                  37	                  38	                  39	                  40	                  41	
+                  42	                  43	                  44	                  45	                  46	                  47	                  48	                  49	
+                  50	                  51	                  52	                  53	                  54	                  55	                  56	                  57	
+                  58	                  59	                  60	                  61	                  62	                  63	                  64	                  65	
+vregs_res result: 
+                   2	                   4	                   6	                   8	                  10	                  12	                  14	                  16	
+                  18	                  20	                  22	                  24	                  26	                  28	                  30	                  32	
+                  34	                  36	                  38	                  40	                  42	                  44	                  46	                  48	
+                  50	                  52	                  54	                  56	                  58	                  60	                  62	                  64	
+                  66	                  68	                  70	                  72	                  74	                  76	                  78	                  80	
+                  82	                  84	                  86	                  88	                  90	                  92	                  94	                  96	
+                  98	                 100	                 102	                 104	                 106	                 108	                 110	                 112	
+                 114	                 116	                 118	                 120	                 122	                 124	                 126	                 128	
+@RMA: req info...
+opType= 1, way=0 flush=1, calOp=0, scalaA=                   1, scalaB=                   1
+addr=00000000800023c0	, lgElem=3	, elems=   64, stride=    1, vmask=ffffffffffffffff, loadAddr=1
+@BANK(write): addr=01, data=0000000000000000, mask=ff
+@BANK(write): addr=01, data=0000000000000000, mask=ff
+@BANK(write): addr=01, data=0000000000000000, mask=ff
+@BANK(write): addr=01, data=0000000000000000, mask=ff
+@BANK(write): addr=01, data=0000000000000000, mask=ff
+@BANK(write): addr=01, data=0000000000000000, mask=ff
+@BANK(write): addr=01, data=0000000000000000, mask=ff
+@BANK(write): addr=01, data=0000000000000000, mask=ff
+@BANK(write): addr=01, data=0000000000000000, mask=ff
+@BANK(write): addr=01, data=0000000000000000, mask=ff
+@BANK(write): addr=01, data=0000000000000000, mask=ff
+@BANK(write): addr=01, data=0000000000000000, mask=ff
+@BANK(write): addr=01, data=0000000000000000, mask=ff
+@BANK(write): addr=01, data=0000000000000000, mask=ff
+@BANK(write): addr=01, data=0000000000000000, mask=ff
+@BANK(write): addr=01, data=0000000000000000, mask=ff
+@BANK(write): addr=01, data=0000000000000000, mask=ff
+@BANK(write): addr=01, data=0000000000000000, mask=ff
+@BANK(write): addr=01, data=0000000000000000, mask=ff
+@BANK(write): addr=01, data=0000000000000000, mask=ff
+@BANK(write): addr=01, data=0000000000000000, mask=ff
+@BANK(write): addr=01, data=0000000000000000, mask=ff
+@BANK(write): addr=01, data=0000000000000000, mask=ff
+@BANK(write): addr=01, data=0000000000000000, mask=ff
+@BANK(write): addr=01, data=0000000000000000, mask=ff
+@BANK(write): addr=01, data=0000000000000000, mask=ff
+@BANK(write): addr=01, data=0000000000000000, mask=ff
+@BANK(write): addr=01, data=0000000000000000, mask=ff
+@BANK(write): addr=01, data=0000000000000000, mask=ff
+@BANK(write): addr=01, data=0000000000000000, mask=ff
+@BANK(write): addr=01, data=0000000000000000, mask=ff
+@BANK(write): addr=01, data=0000000000000000, mask=ff
+@BANK(write): addr=01, data=0000000000000000, mask=ff
+@BANK(write): addr=01, data=0000000000000000, mask=ff
+@BANK(write): addr=01, data=0000000000000000, mask=ff
+@BANK(write): addr=01, data=0000000000000000, mask=ff
+@BANK(write): addr=01, data=0000000000000000, mask=ff
+@BANK(write): addr=01, data=0000000000000000, mask=ff
+@BANK(write): addr=01, data=0000000000000000, mask=ff
+@BANK(write): addr=01, data=0000000000000000, mask=ff
+@BANK(write): addr=01, data=0000000000000000, mask=ff
+@BANK(write): addr=01, data=0000000000000000, mask=ff
+@BANK(write): addr=01, data=0000000000000000, mask=ff
+@BANK(write): addr=01, data=0000000000000000, mask=ff
+@BANK(write): addr=01, data=0000000000000000, mask=ff
+@BANK(write): addr=01, data=0000000000000000, mask=ff
+@BANK(write): addr=01, data=0000000000000000, mask=ff
+@BANK(write): addr=01, data=0000000000000000, mask=ff
+@BANK(write): addr=01, data=0000000000000000, mask=ff
+@BANK(write): addr=01, data=0000000000000000, mask=ff
+@BANK(write): addr=01, data=0000000000000000, mask=ff
+@BANK(write): addr=01, data=0000000000000000, mask=ff
+@BANK(write): addr=01, data=0000000000000000, mask=ff
+@BANK(write): addr=01, data=0000000000000000, mask=ff
+@BANK(write): addr=01, data=0000000000000000, mask=ff
+@BANK(write): addr=01, data=0000000000000000, mask=ff
+@BANK(write): addr=01, data=0000000000000000, mask=ff
+@BANK(write): addr=01, data=0000000000000000, mask=ff
+@BANK(write): addr=01, data=0000000000000000, mask=ff
+@BANK(write): addr=01, data=0000000000000000, mask=ff
+@BANK(write): addr=01, data=0000000000000000, mask=ff
+@BANK(write): addr=01, data=0000000000000000, mask=ff
+@BANK(write): addr=01, data=0000000000000000, mask=ff
+@BANK(write): addr=01, data=0000000000000000, mask=ff
+@SPM: DMA load a block data...
+0000000000000000	0000000000000000	0000000000000000	0000000000000000	0000000000000000	0000000000000000	0000000000000000	0000000000000000	
+0000000000000000	0000000000000000	0000000000000000	0000000000000000	0000000000000000	0000000000000000	0000000000000000	0000000000000000	
+0000000000000000	0000000000000000	0000000000000000	0000000000000000	0000000000000000	0000000000000000	0000000000000000	0000000000000000	
+0000000000000000	0000000000000000	0000000000000000	0000000000000000	0000000000000000	0000000000000000	0000000000000000	0000000000000000	
+0000000000000000	0000000000000000	0000000000000000	0000000000000000	0000000000000000	0000000000000000	0000000000000000	0000000000000000	
+0000000000000000	0000000000000000	0000000000000000	0000000000000000	0000000000000000	0000000000000000	0000000000000000	0000000000000000	
+0000000000000000	0000000000000000	0000000000000000	0000000000000000	0000000000000000	0000000000000000	0000000000000000	0000000000000000	
+0000000000000000	0000000000000000	0000000000000000	0000000000000000	0000000000000000	0000000000000000	0000000000000000	0000000000000000	
+@BANK(write): addr=01, data=0000000000000078, mask=ff
+@BANK(write): addr=01, data=000000000000007a, mask=ff
+@BANK(write): addr=01, data=000000000000007c, mask=ff
+@BANK(write): addr=01, data=000000000000007e, mask=ff
+@BANK(write): addr=01, data=0000000000000080, mask=ff
+@BANK(write): addr=01, data=000000000000006a, mask=ff
+@BANK(write): addr=01, data=000000000000006c, mask=ff
+@BANK(write): addr=01, data=000000000000006e, mask=ff
+@BANK(write): addr=01, data=0000000000000070, mask=ff
+@BANK(write): addr=01, data=0000000000000072, mask=ff
+@BANK(write): addr=01, data=0000000000000074, mask=ff
+@BANK(write): addr=01, data=0000000000000076, mask=ff
+@BANK(write): addr=01, data=0000000000000068, mask=ff
+@BANK(write): addr=01, data=0000000000000060, mask=ff
+@BANK(write): addr=01, data=0000000000000062, mask=ff
+@BANK(write): addr=01, data=0000000000000064, mask=ff
+@BANK(write): addr=01, data=0000000000000066, mask=ff
+@BANK(write): addr=01, data=0000000000000048, mask=ff
+@BANK(write): addr=01, data=000000000000004a, mask=ff
+@BANK(write): addr=01, data=000000000000004c, mask=ff
+@BANK(write): addr=01, data=000000000000004e, mask=ff
+@BANK(write): addr=01, data=0000000000000050, mask=ff
+@BANK(write): addr=01, data=0000000000000052, mask=ff
+@BANK(write): addr=01, data=0000000000000054, mask=ff
+@BANK(write): addr=01, data=0000000000000056, mask=ff
+@BANK(write): addr=01, data=0000000000000058, mask=ff
+@BANK(write): addr=01, data=000000000000005a, mask=ff
+@BANK(write): addr=01, data=000000000000005c, mask=ff
+@BANK(write): addr=01, data=000000000000005e, mask=ff
+@BANK(write): addr=01, data=0000000000000042, mask=ff
+@BANK(write): addr=01, data=0000000000000044, mask=ff
+@BANK(write): addr=01, data=0000000000000046, mask=ff
+@BANK(write): addr=01, data=0000000000000030, mask=ff
+@BANK(write): addr=01, data=0000000000000032, mask=ff
+@BANK(write): addr=01, data=0000000000000034, mask=ff
+@BANK(write): addr=01, data=0000000000000036, mask=ff
+@BANK(write): addr=01, data=0000000000000038, mask=ff
+@BANK(write): addr=01, data=000000000000003a, mask=ff
+@BANK(write): addr=01, data=000000000000003c, mask=ff
+@BANK(write): addr=01, data=000000000000003e, mask=ff
+@BANK(write): addr=01, data=0000000000000040, mask=ff
+@BANK(write): addr=01, data=0000000000000022, mask=ff
+@BANK(write): addr=01, data=0000000000000024, mask=ff
+@BANK(write): addr=01, data=0000000000000026, mask=ff
+@BANK(write): addr=01, data=0000000000000028, mask=ff
+@BANK(write): addr=01, data=000000000000002a, mask=ff
+@BANK(write): addr=01, data=000000000000002c, mask=ff
+@BANK(write): addr=01, data=000000000000002e, mask=ff
+@BANK(write): addr=01, data=0000000000000018, mask=ff
+@BANK(write): addr=01, data=000000000000001a, mask=ff
+@BANK(write): addr=01, data=000000000000001c, mask=ff
+@BANK(write): addr=01, data=000000000000001e, mask=ff
+@BANK(write): addr=01, data=0000000000000020, mask=ff
+@BANK(write): addr=01, data=0000000000000012, mask=ff
+@BANK(write): addr=01, data=0000000000000014, mask=ff
+@BANK(write): addr=01, data=0000000000000016, mask=ff
+@BANK(write): addr=01, data=0000000000000002, mask=ff
+@BANK(write): addr=01, data=0000000000000004, mask=ff
+@BANK(write): addr=01, data=0000000000000006, mask=ff
+@BANK(write): addr=01, data=0000000000000008, mask=ff
+@BANK(write): addr=01, data=000000000000000a, mask=ff
+@BANK(write): addr=01, data=000000000000000c, mask=ff
+@BANK(write): addr=01, data=000000000000000e, mask=ff
+@BANK(write): addr=01, data=0000000000000010, mask=ff
+@SPM: hitID= 1,bankAddrInc=     8, bankDistance=                   0, bankStartID= 0, bankAddr=                   1
+@SPM: after scratchpad access
+0 	v1 	d0 	addr0000000080001fd0 	lgElems3 	stride    1
+1 	v1 	d1 	addr00000000800023c0 	lgElems3 	stride    1
+2 	v0 	d0 	addr373dcacd4bc1fd95 	lgElems0 	stride40753
+3 	v0 	d0 	addrcfe0929382944c20 	lgElems1 	stride33271
+4 	v0 	d0 	addr64521cf6e7e2e679 	lgElems0 	stride22569
+5 	v0 	d0 	addrf069143e69f099fd 	lgElems0 	stride20733
+6 	v0 	d0 	addr81de9c820c9ff1eb 	lgElems3 	stride28690
+7 	v0 	d0 	addr9b30cecf80f88f54 	lgElems3 	stride56937
+ 8 	v0 	d0 	addrd02f34a0b5c2fe94 	lgElems3 	stride40737
+ 9 	v0 	d0 	addr512023920e84eb4f 	lgElems3 	stride41810
+10 	v0 	d0 	addr6402201ef4f6a345 	lgElems0 	stride14451
+11 	v0 	d0 	addr1b4a39fd7cfc65bc 	lgElems1 	stride36452
+12 	v0 	d0 	addrd91e8ffeaea9fb95 	lgElems1 	stride63640
+13 	v0 	d0 	addr5bc7a685412f9fef 	lgElems0 	stride18620
+14 	v0 	d0 	addre087fcc4f471b2d9 	lgElems0 	stride58929
+15 	v0 	d0 	addre8440ae134fe16bd 	lgElems1 	stride25165
+16 	v0 	d0 	addreb4ea1af2aa151b6 	lgElems1 	stride17157
+17 	v0 	d0 	addr89c71ca6605ea8d1 	lgElems3 	stride60639
+18 	v0 	d0 	addr354f9d31119de385 	lgElems3 	stride56645
+19 	v0 	d0 	addr6cedcd8d9b5fc544 	lgElems3 	stride54520
+20 	v0 	d0 	addr3196d5bf258cae24 	lgElems1 	stride50823
+21 	v0 	d0 	addra6291939f9510f0e 	lgElems3 	stride56672
+22 	v0 	d0 	addr731aecbf5c835d0a 	lgElems3 	stride38746
+23 	v0 	d0 	addr4868da263f153a18 	lgElems2 	stride61873
+24 	v0 	d0 	addrb1a37cbb113a618a 	lgElems2 	stride49049
+25 	v0 	d0 	addrc0238dbdcb7b1943 	lgElems0 	stride29749
+26 	v0 	d0 	addr7373808c3bea259a 	lgElems1 	stride41013
+27 	v0 	d0 	addr063bc1d8ceece790 	lgElems2 	stride22958
+28 	v0 	d0 	addrd9bcbae2d3baa424 	lgElems2 	stride48902
+29 	v0 	d0 	addr92fe7e683df0ec8d 	lgElems0 	stride53475
+30 	v0 	d0 	addr0a61cceb4790bade 	lgElems1 	stride 1253
+31 	v0 	d0 	addrc88f526af2233a79 	lgElems2 	stride46375
+32 	v0 	d0 	addr7dd816040244e860 	lgElems3 	stride38504
+33 	v0 	d0 	addrdea84eefe5d91580 	lgElems2 	stride19831
+34 	v0 	d0 	addr486e3f3ec06abab8 	lgElems0 	stride26157
+35 	v0 	d0 	addr20faa51c61e8f0a1 	lgElems0 	stride61613
+36 	v0 	d0 	addr103feca7974fdc4e 	lgElems3 	stride19337
+37 	v0 	d0 	addr734d384d0fa44c9b 	lgElems2 	stride49118
+38 	v0 	d0 	addrfbccb943025ae358 	lgElems1 	stride12068
+39 	v0 	d0 	addrc2cf60cfa7b1b9c9 	lgElems1 	stride 6555
+40 	v0 	d0 	addr8fdc156ea69d14a9 	lgElems3 	stride33072
+41 	v0 	d0 	addr74426127217dbdc9 	lgElems2 	stride64000
+42 	v0 	d0 	addrb33554ec751a95e4 	lgElems2 	stride25523
+43 	v0 	d0 	addrbc7e3177f6b9fd23 	lgElems1 	stride14387
+44 	v0 	d0 	addrb4bcc9dec0f5bbde 	lgElems0 	stride43891
+45 	v0 	d0 	addrac981ae119f3fbfb 	lgElems0 	stride47661
+46 	v0 	d0 	addr36a1cea14439f4b2 	lgElems1 	stride45191
+47 	v0 	d0 	addr095b9bc8e3188b0a 	lgElems0 	stride27331
+48 	v0 	d0 	addr1e9947f64292824b 	lgElems1 	stride40702
+49 	v0 	d0 	addr46ac23f564479a7a 	lgElems1 	stride32749
+50 	v0 	d0 	addrecb2cea3454aea95 	lgElems3 	stride48164
+51 	v0 	d0 	addrde630fd682f17d69 	lgElems0 	stride32261
+52 	v0 	d0 	addrf6d5e758d716fb7c 	lgElems1 	stride43711
+53 	v0 	d0 	addr244b2f3203e46fbe 	lgElems2 	stride36736
+54 	v0 	d0 	addr55f43e6ae3fb598d 	lgElems1 	stride49594
+55 	v0 	d0 	addr6984b337faba61f6 	lgElems3 	stride39058
+56 	v0 	d0 	addrb1dede250551e10e 	lgElems0 	stride 8331
+57 	v0 	d0 	addr2d3f95b1fd2f2b8d 	lgElems3 	stride21267
+58 	v0 	d0 	addr70c42c3673644500 	lgElems0 	stride 5958
+59 	v0 	d0 	addr37c0747c589f0377 	lgElems0 	stride51761
+60 	v0 	d0 	addre7643f881b6d4be2 	lgElems2 	stride57044
+61 	v0 	d0 	addr18b4c44a1b0011fb 	lgElems2 	stride43428
+62 	v0 	d0 	addr3f2d52c876984649 	lgElems0 	stride44827
+63 	v0 	d0 	addr8cc3800e84358cf5 	lgElems2 	stride56075
+@MTP: result(                   0)...
+vregs_src0 result: 
+                   0	                   1	                   2	                   3	                   4	                   5	                   6	                   7	
+                   8	                   9	                  10	                  11	                  12	                  13	                  14	                  15	
+                  16	                  17	                  18	                  19	                  20	                  21	                  22	                  23	
+                  24	                  25	                  26	                  27	                  28	                  29	                  30	                  31	
+                  32	                  33	                  34	                  35	                  36	                  37	                  38	                  39	
+                  40	                  41	                  42	                  43	                  44	                  45	                  46	                  47	
+                  48	                  49	                  50	                  51	                  52	                  53	                  54	                  55	
+                  56	                  57	                  58	                  59	                  60	                  61	                  62	                  63	
+vregs_src1 result: 
+                   2	                   3	                   4	                   5	                   6	                   7	                   8	                   9	
+                  10	                  11	                  12	                  13	                  14	                  15	                  16	                  17	
+                  18	                  19	                  20	                  21	                  22	                  23	                  24	                  25	
+                  26	                  27	                  28	                  29	                  30	                  31	                  32	                  33	
+                  34	                  35	                  36	                  37	                  38	                  39	                  40	                  41	
+                  42	                  43	                  44	                  45	                  46	                  47	                  48	                  49	
+                  50	                  51	                  52	                  53	                  54	                  55	                  56	                  57	
+                  58	                  59	                  60	                  61	                  62	                  63	                  64	                  65	
+vregs_res result: 
+                   2	                   4	                   6	                   8	                  10	                  12	                  14	                  16	
+                  18	                  20	                  22	                  24	                  26	                  28	                  30	                  32	
+                  34	                  36	                  38	                  40	                  42	                  44	                  46	                  48	
+                  50	                  52	                  54	                  56	                  58	                  60	                  62	                  64	
+                  66	                  68	                  70	                  72	                  74	                  76	                  78	                  80	
+                  82	                  84	                  86	                  88	                  90	                  92	                  94	                  96	
+                  98	                 100	                 102	                 104	                 106	                 108	                 110	                 112	
+                 114	                 116	                 118	                 120	                 122	                 124	                 126	                 128	
+@RMA: req info...
+opType= 3, way=0 flush=0, calOp=0, scalaA=                   1, scalaB=                   1
+addr=00000000800023c0	, lgElem=3	, elems=   64, stride=    1, vmask=ffffffffffffffff, loadAddr=1
+@BANK(read): addr=01, data=0000000000000078
+@BANK(read): addr=01, data=000000000000007a
+@BANK(read): addr=01, data=000000000000007c
+@BANK(read): addr=01, data=000000000000007e
+@BANK(read): addr=01, data=0000000000000080
+@BANK(read): addr=01, data=000000000000006a
+@BANK(read): addr=01, data=000000000000006c
+@BANK(read): addr=01, data=000000000000006e
+@BANK(read): addr=01, data=0000000000000070
+@BANK(read): addr=01, data=0000000000000072
+@BANK(read): addr=01, data=0000000000000074
+@BANK(read): addr=01, data=0000000000000076
+@BANK(read): addr=01, data=0000000000000068
+@BANK(read): addr=01, data=0000000000000060
+@BANK(read): addr=01, data=0000000000000062
+@BANK(read): addr=01, data=0000000000000064
+@BANK(read): addr=01, data=0000000000000066
+@BANK(read): addr=01, data=0000000000000048
+@BANK(read): addr=01, data=000000000000004a
+@BANK(read): addr=01, data=000000000000004c
+@BANK(read): addr=01, data=000000000000004e
+@BANK(read): addr=01, data=0000000000000050
+@BANK(read): addr=01, data=0000000000000052
+@BANK(read): addr=01, data=0000000000000054
+@BANK(read): addr=01, data=0000000000000056
+@BANK(read): addr=01, data=0000000000000058
+@BANK(read): addr=01, data=000000000000005a
+@BANK(read): addr=01, data=000000000000005c
+@BANK(read): addr=01, data=000000000000005e
+@BANK(read): addr=01, data=0000000000000042
+@BANK(read): addr=01, data=0000000000000044
+@BANK(read): addr=01, data=0000000000000046
+@BANK(read): addr=01, data=0000000000000030
+@BANK(read): addr=01, data=0000000000000032
+@BANK(read): addr=01, data=0000000000000034
+@BANK(read): addr=01, data=0000000000000036
+@BANK(read): addr=01, data=0000000000000038
+@BANK(read): addr=01, data=000000000000003a
+@BANK(read): addr=01, data=000000000000003c
+@BANK(read): addr=01, data=000000000000003e
+@BANK(read): addr=01, data=0000000000000040
+@BANK(read): addr=01, data=0000000000000022
+@BANK(read): addr=01, data=0000000000000024
+@BANK(read): addr=01, data=0000000000000026
+@BANK(read): addr=01, data=0000000000000028
+@BANK(read): addr=01, data=000000000000002a
+@BANK(read): addr=01, data=000000000000002c
+@BANK(read): addr=01, data=000000000000002e
+@BANK(read): addr=01, data=0000000000000018
+@BANK(read): addr=01, data=000000000000001a
+@BANK(read): addr=01, data=000000000000001c
+@BANK(read): addr=01, data=000000000000001e
+@BANK(read): addr=01, data=0000000000000020
+@BANK(read): addr=01, data=0000000000000012
+@BANK(read): addr=01, data=0000000000000014
+@BANK(read): addr=01, data=0000000000000016
+@BANK(read): addr=01, data=0000000000000002
+@BANK(read): addr=01, data=0000000000000004
+@BANK(read): addr=01, data=0000000000000006
+@BANK(read): addr=01, data=0000000000000008
+@BANK(read): addr=01, data=000000000000000a
+@BANK(read): addr=01, data=000000000000000c
+@BANK(read): addr=01, data=000000000000000e
+@BANK(read): addr=01, data=0000000000000010
+@BANK(read): addr=01, data=0000000000000078
+@BANK(read): addr=01, data=000000000000007a
+@BANK(read): addr=01, data=000000000000007c
+@BANK(read): addr=01, data=000000000000007e
+@BANK(read): addr=01, data=0000000000000080
+@BANK(read): addr=01, data=000000000000006a
+@BANK(read): addr=01, data=000000000000006c
+@BANK(read): addr=01, data=000000000000006e
+@BANK(read): addr=01, data=0000000000000070
+@BANK(read): addr=01, data=0000000000000072
+@BANK(read): addr=01, data=0000000000000074
+@BANK(read): addr=01, data=0000000000000076
+@BANK(read): addr=01, data=0000000000000068
+@BANK(read): addr=01, data=0000000000000060
+@BANK(read): addr=01, data=0000000000000062
+@BANK(read): addr=01, data=0000000000000064
+@BANK(read): addr=01, data=0000000000000066
+@BANK(read): addr=01, data=0000000000000048
+@BANK(read): addr=01, data=000000000000004a
+@BANK(read): addr=01, data=000000000000004c
+@BANK(read): addr=01, data=000000000000004e
+@BANK(read): addr=01, data=0000000000000050
+@BANK(read): addr=01, data=0000000000000052
+@BANK(read): addr=01, data=0000000000000054
+@BANK(read): addr=01, data=0000000000000056
+@BANK(read): addr=01, data=0000000000000058
+@BANK(read): addr=01, data=000000000000005a
+@BANK(read): addr=01, data=000000000000005c
+@BANK(read): addr=01, data=000000000000005e
+@BANK(read): addr=01, data=0000000000000042
+@BANK(read): addr=01, data=0000000000000044
+@BANK(read): addr=01, data=0000000000000046
+@BANK(read): addr=01, data=0000000000000030
+@BANK(read): addr=01, data=0000000000000032
+@BANK(read): addr=01, data=0000000000000034
+@BANK(read): addr=01, data=0000000000000036
+@BANK(read): addr=01, data=0000000000000038
+@BANK(read): addr=01, data=000000000000003a
+@BANK(read): addr=01, data=000000000000003c
+@BANK(read): addr=01, data=000000000000003e
+@BANK(read): addr=01, data=0000000000000040
+@BANK(read): addr=01, data=0000000000000022
+@BANK(read): addr=01, data=0000000000000024
+@BANK(read): addr=01, data=0000000000000026
+@BANK(read): addr=01, data=0000000000000028
+@BANK(read): addr=01, data=000000000000002a
+@BANK(read): addr=01, data=000000000000002c
+@BANK(read): addr=01, data=000000000000002e
+@BANK(read): addr=01, data=0000000000000018
+@BANK(read): addr=01, data=000000000000001a
+@BANK(read): addr=01, data=000000000000001c
+@BANK(read): addr=01, data=000000000000001e
+@BANK(read): addr=01, data=0000000000000020
+@BANK(read): addr=01, data=0000000000000012
+@BANK(read): addr=01, data=0000000000000014
+@BANK(read): addr=01, data=0000000000000016
+@BANK(read): addr=01, data=0000000000000002
+@BANK(read): addr=01, data=0000000000000004
+@BANK(read): addr=01, data=0000000000000006
+@BANK(read): addr=01, data=0000000000000008
+@BANK(read): addr=01, data=000000000000000a
+@BANK(read): addr=01, data=000000000000000c
+@BANK(read): addr=01, data=000000000000000e
+@BANK(read): addr=01, data=0000000000000010
+@MTP: result(                   0)...
+*** PASSED *** Completed after 77839 cycles
